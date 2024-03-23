@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FondodeSalud.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="Salario basico"/>
+            <Entry x:Name="EntrySalariobasico" Placeholder="Ingrese el salario" />
+            <Button Text="Calcular Aportes" Clicked="Button_Clicked" />
+            <Label x:Name="lblEntryContributions" />
+            <Label x:Name="lblEntryPensionContributions" />
+            <Label x:Name="lblEntryFPSContribution" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
